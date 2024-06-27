@@ -8,5 +8,8 @@ export default defineNuxtConfig({
 		},
 	},
 
-	modules: ["@nuxtjs/tailwindcss"],
+	modules: [
+		"@nuxtjs/tailwindcss",
+		"@nuxtjs/i18n",
+	],
 });
