@@ -1,7 +1,8 @@
 <template>
 	<div>
-		<header>header</header>
-		<img src="/hero.png" />
+		<header>
+			<OfferBanner />
+		</header>
 		<main>
 			<slot />
 		</main>
