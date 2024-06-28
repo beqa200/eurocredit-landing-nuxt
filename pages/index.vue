@@ -1,7 +1,13 @@
 <template>
-	<div>
-		<h1>Home</h1>
-	</div>
+	<HeroSection />
+	<Companies />
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+	title: "ევროკრედიტი",
+	description:
+		"აიღე სესხი 3 თვით 0%, წინასწარი შენატანის გარეშე!",
+	ogImage: "/eurocredit-logo.svg",
+});
+</script>

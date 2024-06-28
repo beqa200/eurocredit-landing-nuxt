@@ -1,9 +1,13 @@
 {
+	"meta": {
+		"title": "Eurocredit",
+		"description": "Get a loan beyond barriers"
+	},
 	"offerBanner": {
 		"message": "The summer campaign has started! Get a loan for 3 months at 0%, with no down payment!"
 	},
 	"navigation": {
-		"lang": "Eng",
+		"lang": "ENG",
 		"buttonText": "Loan request",
 		"langImg": "/en.png",
 		"navs": [
@@ -19,5 +23,9 @@
 
 			"Contact"
 		]
+	},
+	"hero": {
+		"title": "Get a loan beyond barriers",
+		"description": "A loan is important for those who value speed and quality. Start calculating the loan."
 	}
 }

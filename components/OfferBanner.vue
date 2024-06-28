@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="bg-dark-blue w-full py-4 flex justify-center items-center gap-4"
+		class="bg-dark-blue w-full py-4 flex justify-center items-center gap-4 px-3 tablet:px-0"
 		role="banner"
 		aria-label="Offer Announcement"
 	>

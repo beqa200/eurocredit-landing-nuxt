@@ -1,10 +1,10 @@
 <template>
-	<div>
+	<div class="mb-[100px]">
 		<header>
 			<OfferBanner />
 			<Navigation />
 		</header>
-		<main>
+		<main class="max-w-[1440px] m-auto">
 			<slot />
 		</main>
 	</div>
