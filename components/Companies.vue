@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex justify-center gap-12 opacity-40"
+		class="flex flex-wrap justify-center gap-5 tablet:gap-12 opacity-40"
 	>
 		<NuxtImg
 			src="/boltshift-logo.png"

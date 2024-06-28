@@ -1,13 +1,17 @@
 <template>
 	<section
-		class="p-[114px] flex justify-between"
+		class="p-3 pb-10 tablet:p-[114px] flex justify-between"
 	>
-		<div class="max-w-[500px]">
-			<h1 class="text-[56px] font-bold">
+		<div
+			class="max-w-[500px] flex flex-col items-center m-auto laptop:block laptop:m-0"
+		>
+			<h1
+				class="text-[34px] text-center laptop:text-start tablet:text-[56px] font-bold"
+			>
 				{{ $t("hero.title") }}
 			</h1>
 			<p
-				class="text-[18px] mt-[24px] mb-[40px]"
+				class="text-[18px] mt-[24px] mb-[40px] text-center laptop:text-start"
 			>
 				{{ $t("hero.description") }}
 			</p>
@@ -39,6 +43,7 @@
 		<NuxtImg
 			src="/hero.png"
 			width="548"
+			class="hidden laptop:block"
 		/>
 	</section>
 </template>

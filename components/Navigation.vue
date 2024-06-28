@@ -1,15 +1,15 @@
 <template>
 	<div>
 		<div
-			class="tablet:px-[112px] py-6 grid grid-cols-header items-center"
+			class="px-4 tablet:px-[112px] py-6 grid grid-cols-headerTablet tablet:grid-cols-header items-center"
 		>
 			<NuxtImg
 				src="/eurocredit-logo.svg"
 				width="165"
-				class="box-content border-r-2 border-border-color-gray pr-8"
+				class="box-content border-r-2 border-border-color-gray pr-8 hidden tablet:block"
 			/>
 			<div
-				class="flex items-center pl-8 gap-1.5"
+				class="flex items-center tablet:pl-8 gap-1.5"
 			>
 				<NuxtImg
 					src="/phone.svg"
@@ -43,7 +43,9 @@
 				width="20"
 				class="justify-self-end mr-2 border-2 border-border-color-gray rounded-full p-2 box-content cursor-pointer"
 			/>
-			<button class="btn">
+			<button
+				class="btn hidden tablet:block"
+			>
 				{{
 					$t("navigation.buttonText")
 				}}
@@ -54,7 +56,7 @@
 			class="bg-[#F6F8FA] text-white text-center py-6"
 		>
 			<div
-				class="flex gap-9 text-font-color-black text-sm font-semibold justify-center"
+				class="flex px-2 flex-wrap gap-9 text-font-color-black text-sm font-semibold justify-center"
 			>
 				<a
 					href="#"

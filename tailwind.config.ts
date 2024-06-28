@@ -16,12 +16,12 @@ export default {
 			gridTemplateColumns: {
 				header:
 					"200px 200px 1fr 44px 200px",
+				headerTablet: "200px 1fr 44px",
 			},
-
-			
 		},
 		screens: {
-			"tablet": "818px"
-		}
+			tablet: "818px",
+			laptop: "1040px",
+		},
 	},
 };
