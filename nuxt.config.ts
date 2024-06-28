@@ -3,10 +3,8 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	css: ["~/assets/tailwind.css"],
 
-	$development: {
-		routeRules: {
-			"/**": { static: true },
-		},
+	routeRules: {
+		"/**": { static: true },
 	},
 
 	modules: [
