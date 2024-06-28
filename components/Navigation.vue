@@ -109,6 +109,11 @@ const toggleLocale = () => {
 	setLocale(
 		locale.value === "en" ? "ka" : "en"
 	);
+
+	localStorage.setItem(
+		"locale",
+		locale.value === "en" ? "ka" : "en"
+	);
 };
 </script>
 
