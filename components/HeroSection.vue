@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="p-3 pb-10 tablet:p-[114px] flex justify-between"
+		class="p-3 pb-10 tablet:p-[114px] flex flex-col laptop:flex-row gap-6 items-center justify-between"
 	>
 		<div
 			class="max-w-[500px] flex flex-col items-center m-auto laptop:block laptop:m-0"
@@ -43,7 +43,6 @@
 		<NuxtImg
 			src="/hero.png"
 			width="548"
-			class="hidden laptop:block"
 		/>
 	</section>
 </template>

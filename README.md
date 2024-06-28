@@ -1,75 +1,86 @@
-# Nuxt 3 Minimal Starter
+# EurocCredit Landing Page
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Table of Contents
 
-## Setup
+- [Prerequisites](#Prerequisites)
+- [Tech Stack](#Tech-Stack)
+- [Getting Started](#Getting-Started)
+- [Project Structure](#Project-Structure)
+- [Deployment](#Deployment)
+- [Author](#Author)
 
-Make sure to install the dependencies:
+#
 
-```bash
-# npm
+### Prerequisites
+
+- <img src="readme/npm.png" width="25" style="top: 8px" /> _npm @8 and up_
+- <img src="readme/typescript.png" width="25" style="top: 8px" /> _typescript @4.9.3_
+
+#
+
+### Tech Stack
+
+- <img src="readme/nuxt.png" width="25" style="top: 8px" /> _Nuxt @3.12.2 - full-stack framework_
+- <img src="readme/tailwind.png" width="25" style="top: 8px" /> _TailwindCSS @5.3.6 - library for styling_
+- _I18n @8.3.1 - library for switching languages_
+
+#
+
+### Getting Started
+
+1. First of all you need to clone app repository from github:
+
+```
+git clone git@github.com:beqa200/eurocredit-landing-nuxt.git
+```
+
+2. Next step requires install all the dependencies.
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+3. To see project in action
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+#
 
-Build the application for production:
+### Project Structure
 
-```bash
-# npm
+```
+
+- assets
+- components # reusable components
+|--- layouts
+|    |--- default.vue
+|--- locales
+|    |--- en.json
+|    |--- ka.json
+- pages
+|--- assets
+|   |---tailwind.css
+- public # images
+- package.json     # dependency manager configurations
+
+```
+
+#
+
+### Deployment
+
+Before every deployment you need to create build file.
+
+```
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+after this you can use this file to deploy project on server.
 
-```bash
-# npm
-npm run preview
+#
 
-# pnpm
-pnpm run preview
+### Author
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [LinkedIn](https://www.linkedin.com/in/beka-maisuradze-76a730234/)
