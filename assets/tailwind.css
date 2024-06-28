@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes scale-up {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
 @layer components {
 	.btn {
 		@apply bg-dark-blue text-white text-sm font-bold py-3.5 px-[1.13rem]  hover:opacity-80 transition-all rounded-[50px] shadow-custom;
+	}
+	.scale-animation {
+		@apply animate-[scale-up_1s_infinite];
 	}
 }

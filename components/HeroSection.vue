@@ -22,7 +22,7 @@
 					}}
 				</button>
 				<button
-					class="flex gap-2 items-center border-2 rounded-[88px] px-[18px]"
+					class="flex gap-2 items-center border-2 rounded-[88px] px-[18px] hover:bg-[#F6F8FA] hover:border-[#F6F8FA]"
 				>
 					<NuxtImg
 						src="/google.svg"

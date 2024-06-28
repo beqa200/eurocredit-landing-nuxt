@@ -60,42 +60,42 @@
 			>
 				<a
 					href="#"
-					class="hover:text-primary"
+					class="hover:scale-animation"
 					>{{
 						$t("navigation.navs[0]")
 					}}</a
 				>
 				<a
 					href="#"
-					class="hover:text-primary"
+					class="hover:scale-animation"
 					>{{
 						$t("navigation.navs[1]")
 					}}</a
 				>
 				<a
 					href="#"
-					class="hover:text-primary"
+					class="hover:scale-animation"
 					>{{
 						$t("navigation.navs[2]")
 					}}</a
 				>
 				<a
 					href="#"
-					class="hover:text-primary"
+					class="hover:scale-animation"
 					>{{
 						$t("navigation.navs[3]")
 					}}</a
 				>
 				<a
 					href="#"
-					class="hover:text-primary"
+					class="hover:scale-animation"
 					>{{
 						$t("navigation.navs[4]")
 					}}</a
 				>
 				<a
 					href="#"
-					class="hover:text-primary"
+					class="hover:scale-animation"
 					>{{
 						$t("navigation.navs[5]")
 					}}</a
