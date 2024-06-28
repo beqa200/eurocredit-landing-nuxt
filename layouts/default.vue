@@ -2,6 +2,7 @@
 	<div>
 		<header>
 			<OfferBanner />
+			<Navigation />
 		</header>
 		<main>
 			<slot />

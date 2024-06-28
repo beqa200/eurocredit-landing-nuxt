@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.btn {
+		@apply bg-dark-blue text-white text-sm font-bold py-3.5 px-[1.13rem]  hover:opacity-80 transition-all rounded-[50px] shadow-custom;
+	}
+}

@@ -1,5 +1,23 @@
 {
 	"offerBanner": {
 		"message": "The summer campaign has started! Get a loan for 3 months at 0%, with no down payment!"
+	},
+	"navigation": {
+		"lang": "Eng",
+		"buttonText": "Loan request",
+		"langImg": "/en.png",
+		"navs": [
+			"Auto loan",
+
+			"Business loan",
+
+			"For self-employed",
+
+			"About us",
+
+			"Blog",
+
+			"Contact"
+		]
 	}
 }
